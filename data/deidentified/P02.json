@@ -1,0 +1,1664 @@
+{
+  "experimentalGroup": "standard_ai",
+  "participantId": "P02",
+  "lastUpdated": "2026-09-08T14:14:26.091000+00:00",
+  "__subcollections__": {
+    "events": {
+      "0YRNKFxQ9BhErpBHBpYx": {
+        "playerCol": 5,
+        "dropRow": 5,
+        "dropCol": 4,
+        "isExperiment": false,
+        "playerRow": 5,
+        "experimentalGroup": "standard_ai",
+        "objectId": "tutorial_b_box",
+        "levelId": "tutorial_B",
+        "localTime": "2026-09-08T14:20:15.858Z",
+        "objectType": "moveable",
+        "currentLevel": "tutorial_B",
+        "participantId": "P02",
+        "eventType": "drop_action",
+        "levelPhase": "tutorial",
+        "playerDirection": 2,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "0xYuwWy3ziPH7bUmRn2Y": {
+        "eventType": "level_complete",
+        "levelId": "tutorial_B",
+        "runCount": 6,
+        "localTime": "2026-09-08T14:20:16.159Z",
+        "currentLevel": "tutorial_B",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timeSpentSeconds": 185,
+        "experimentalGroup": "standard_ai",
+        "completedLevels": 2,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "timeSpentMs": 184886,
+        "success": true
+      },
+      "1NnEicKL7fha9SnsQb5f": {
+        "eventType": "level_start",
+        "levelId": "tutorial_A",
+        "currentLevel": "tutorial_A",
+        "localTime": "2026-09-08T14:14:36.077Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "21nvgfVuUpQWQCW1U5vz": {
+        "eventType": "run_simulation",
+        "levelId": "tutorial_D",
+        "localTime": "2026-09-08T14:24:02.582Z",
+        "currentLevel": "tutorial_D",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"yq%[b.@4OIB*0?OF#8yd\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"/e9(V?wz}pzD,YKM@#)~\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"QSd={T+#A,$H%fiwXlHo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"7S#NaxPZRSn4-i.j3z4.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"6DhFL?(A8O^Hlc7f@iie\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"9;F99c^c%%6Tmn6Hv8([\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"v9(=E#,/ZOd!jV,mz7O{\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"!!w`2tb[2HX8#-a8~~hA\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"35lC}nLjtUPIwBX2(8((\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"BQ?EFU46A$B*yJ:bVI2o\"\n  }\n]"
+      },
+      "2tgEfhD5u87jN4yKLTrl": {
+        "playerCol": 5,
+        "dropRow": 6,
+        "dropCol": 6,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "conveyorId": "level4_dropoff_zone",
+        "eventType": "drop_action",
+        "localTime": "2026-09-08T14:45:19.619Z",
+        "playerDirection": 1,
+        "objectType": "moveable",
+        "currentLevel": "level_004",
+        "participantId": "P02",
+        "objectId": "level4_box_good",
+        "levelPhase": "experimental",
+        "levelId": "level_004",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": true
+      },
+      "3Z2ZMXAkEszbUM0avq7y": {
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:37:58.283Z",
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 6,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"A}VlW|Xy+e8}ff}^nQCf\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Sg;];E6fF+*sEfp.TNCe\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"l-3ohAAQ|Bur{u5~4ARE\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YqVa;g7)$JVmH7j@$Gdy\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"JDT5^~4s;NTjJR86vhkc\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"JncHGI#F]Jf:tVp]=pLQ\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"-l:UN9H8#yco]+v{h@P,\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"0g:1K+`!F?Y!6^SXVuA^\",\n    \"fields\": {\n      \"NUM\": 5\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"%8#!_{vqc6%S%*n~cWHp\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"7`kRkZ@mt9!}DglF9{v.\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"KR72$Ya={Avreey42Pcy\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"gZc|(7k_3@n}m`YZ4Hop\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"/V3CfR^}N@,*wW!L+P6V\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"b[pFr~X-9,HwP}.6e^Sq\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"EKhH/vSs8p!E0:.1B=5b\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"}z1}xdM93Y@{(kQmbVA`\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i{T%gwBGl9u2(c5=R}e@\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"zn$kPcQZ4W^1g(;7)5cp\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"MImpT63l)sLqw!lny5jI\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"l2Sb:xzLQ[@-qg;I_XVn\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"T9tXjA4ZQ2e/e)BWwI`B\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^k9A*5H|vou/BW;~F_99\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \";@OZ1@W-@s7~V@H?7%8$\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \":,7f(wlG-jITyiy=LEPK\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"FiK31:W3)dJ)|CWTWBu1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"{-!%N7ot3%PJX8z]7**.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"[RSZwqg`[D%L9R-Im+/U\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"dtmfn2%bz:4)0!U[1@q[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6:v@7aaj]U@ZPJIwDMk9\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"]ZoiJV?/,EgcLD4`uQxI\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"mj_;l/;P?E**Ry/_/hJ!\"\n  }\n]"
+      },
+      "6RY552o1T6PwFZG3oIWP": {
+        "eventType": "dialogue_dismissed",
+        "levelId": "level_001",
+        "currentLevel": "level_003",
+        "localTime": "2026-09-08T14:39:14.288Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "readTimeMs": 6464,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "6f3BE54m5l6bGtfomBBW": {
+        "eventType": "dialogue_shown",
+        "levelId": "tutorial_B",
+        "currentLevel": "tutorial_A",
+        "lineCount": 4,
+        "localTime": "2026-09-08T14:17:01.078Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "6kV1SHMh3Ye8LaeQoScC": {
+        "playerCol": 1,
+        "targetCol": 1,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 4,
+        "targetRow": 3,
+        "collisionType": "conveyor",
+        "objectId": "tutorial_b_input_2",
+        "levelId": "tutorial_B",
+        "eventType": "collision",
+        "objectType": "conveyor",
+        "playerDirection": "NORTH",
+        "participantId": "P02",
+        "localTime": "2026-09-08T14:18:08.478Z",
+        "levelPhase": "tutorial",
+        "currentLevel": "tutorial_B",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "6lrahXWlYgLC73lrOtEH": {
+        "eventType": "dialogue_shown",
+        "levelId": "tutorial_A",
+        "localTime": "2026-09-08T14:14:25.489Z",
+        "lineCount": 3,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "isExperiment": false,
+        "levelPhase": "tutorial"
+      },
+      "76SSGD9HMLaktY3EHbKE": {
+        "playerCol": 3,
+        "dropRow": 5,
+        "dropCol": 3,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 4,
+        "currentLevel": "tutorial_A",
+        "playerDirection": 0,
+        "levelId": "tutorial_A",
+        "objectType": "moveable",
+        "objectId": "tutorial_a_box",
+        "participantId": "P02",
+        "eventType": "drop_action",
+        "levelPhase": "tutorial",
+        "localTime": "2026-09-08T14:16:59.010Z",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "7OfPDktM46UshedZpHHB": {
+        "eventType": "run_simulation",
+        "levelId": "level_004",
+        "localTime": "2026-09-08T14:42:10.761Z",
+        "currentLevel": "level_004",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \")TpR{38kJ,V}G[S#3.9l\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"wKucnn?oxf6xfL5mfHHU\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Xxv^.=}S#]rTfsD(sOEo\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"`lfMvRW..ZU0L1_p/ec.\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"F9E8!/()QY0wrVD$eWyk\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"U@v+eJz?kw/))X.WE*WJ\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"ucK4bii(pNX8M9Jv06^O\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zp*M{UIP,$4a1*y{*^eS\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"((^*RbnosOv?EaJb|eI$\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"k1qmBX)12/Y`WQaR4=ed\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"49cGSUl4KiH7p.,f?VzX\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \",I-DTpZ|c)!LiAK(,(]V\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"0x)1-I_1R[m%4N~{XozS\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"ey.myG;-$7Y|Cb$ye)oG\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1468.h[FR9GoH$?DaTz$\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"JU`#%NQFM~Izt9s8V@sO\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Uxv:#Q(jHl}MAIZLr`nd\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"d6!yczxQB^Zf:K2{/N4A\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"#l;8.bm%OUP@q:J(x$8e\"\n  }\n]"
+      },
+      "9TVPyc0IglDl2jdh9amF": {
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:38:38.722Z",
+        "eventType": "dialogue_shown",
+        "lineCount": 2,
+        "levelId": "level_003",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "9fgdIpoTTeZoWnaGidks": {
+        "currentLevel": "tutorial_D",
+        "localTime": "2026-09-08T14:22:51.442Z",
+        "eventType": "level_start",
+        "levelId": "tutorial_D",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "AB8ZoBLtcHbG1grMIMhF": {
+        "currentLevel": "tutorial_C",
+        "localTime": "2026-09-08T14:22:02.390Z",
+        "levelId": "tutorial_C",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"8yyQ[Z9[#?*id-igp#5z\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \"7V;]43r7NiK2W.}/;nXS\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"9:jr@u*v#nIr9TS(;gS|\",\n    \"fields\": {\n      \"ATTR\": \"priority\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"qd3C2:a(HV/-HHq3?Ys1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"zd1Yp-GC+VD4,POo?d9:\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"UWm,V)A|hGhZ7UfiXmQt\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"a`er5K!?]fzeV^E=SwyY\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"0KtF-2[k7._l@r%I[CFS\"\n  }\n]"
+      },
+      "BG5n2W2FUF75WKToXSNO": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:16:22.511Z",
+        "levelId": "tutorial_A",
+        "currentLevel": "tutorial_A",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 5,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Q:pH#CnDR#.e`.sX`I8m\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"kmgop8~DwdG8R%;p)x[B\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"penl/L=j|2cm5q{p7Hx[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"SuY/6%F%{kQcfG#hBKQ5\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"byz#S3YUGR4`3cm4:I?3\"\n  }\n]"
+      },
+      "Bms045GcksWdt7MiComZ": {
+        "eventType": "dialogue_dismissed",
+        "levelId": "tutorial_A",
+        "localTime": "2026-09-08T14:14:36.070Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "readTimeMs": 11148,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "Bu4xN43Ua9bS9HIET4np": {
+        "playerCol": 0,
+        "targetCol": -1,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 4,
+        "targetRow": 4,
+        "collisionType": "boundary",
+        "currentLevel": "tutorial_B",
+        "localTime": "2026-09-08T14:18:09.464Z",
+        "eventType": "collision",
+        "objectType": "edge_of_map",
+        "playerDirection": "WEST",
+        "participantId": "P02",
+        "levelId": "tutorial_B",
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "Bxt5A9u9Dc32owtSD5IR": {
+        "currentLevel": "tutorial_C",
+        "localTime": "2026-09-08T14:22:39.385Z",
+        "runCount": 3,
+        "levelId": "tutorial_C",
+        "eventType": "level_complete",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timeSpentSeconds": 132,
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "completedLevels": 3,
+        "timeSpentMs": 131587,
+        "success": true
+      },
+      "EQKj4l53vyKvGY2z3s3u": {
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:38:35.818Z",
+        "runCount": 7,
+        "timeSpentMs": 459596,
+        "levelId": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "eventType": "level_complete",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "completedLevels": 6,
+        "timeSpentSeconds": 460,
+        "success": true
+      },
+      "EseidhehXXUqtYX0QfmG": {
+        "playerCol": 3,
+        "dropRow": 4,
+        "dropCol": 3,
+        "isExperiment": false,
+        "playerRow": 3,
+        "experimentalGroup": "standard_ai",
+        "currentLevel": "tutorial_D",
+        "levelId": "tutorial_D",
+        "playerDirection": 0,
+        "objectType": "moveable",
+        "objectId": "tutorial_d_box_good",
+        "participantId": "P02",
+        "eventType": "drop_action",
+        "levelPhase": "tutorial",
+        "localTime": "2026-09-08T14:25:30.316Z",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "F3tdVqc0ljFeCBI6dyou": {
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:41:55.968Z",
+        "eventType": "dialogue_dismissed",
+        "levelId": "level_004",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 6647,
+        "experimentalGroup": "standard_ai"
+      },
+      "FOwlySd35GCmAxMTsmT2": {
+        "eventType": "dialogue_shown",
+        "levelId": "tutorial_D",
+        "currentLevel": "tutorial_C",
+        "lineCount": 2,
+        "localTime": "2026-09-08T14:22:42.174Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "FeGdPNTZ8FEdIZOThmW5": {
+        "currentLevel": "tutorial_B",
+        "localTime": "2026-09-08T14:20:06.863Z",
+        "levelId": "tutorial_B",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 6,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"-3}t^2_E^C3IX((DvA}f\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"wD$ZgHJnns9h8]E_,q,D\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"XLd6ST9wd:YjB*c_!3d,\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"S$e}t9Hg3nDK}me48~TI\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"~wd)fQpeTe1.*?+hLfb~\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"m#?!k;RYiMr`7*0Cezb1\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"qK:EU()-wQ;+WWHihHa$\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"!14rcy(=]3(`:Nxi4*jR\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YU6zSAR?43Zh*/jDH_EM\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[bR^7+#:9v`y8[+5x=-z\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zw#wFu(0cIb`VbkP1lk^\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"vr,n/1xepvsJNpW1Gpy3\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"{R#dIzf-DX%$~9/hd:,r\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"Q[2I#xq=)hiVPvlk^PyS\"\n  }\n]"
+      },
+      "Fz0P8qdNGqVAykjrMSLk": {
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "localTime": "2026-09-08T14:30:17.559Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 7,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")*EcO$|;/+!a}D{z=m:}\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"%tCa#Jr$BEMy/2g2ie39\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"kzMpsr^+.L!fj8@VI[P7\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"0np?l`zfN$5!o^/AyCoo\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \",N*7d,=Jx)(s1E_jlM2(\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  }\n]"
+      },
+      "G0FOu50vY5v9iO1Gy9WZ": {
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "localTime": "2026-09-08T14:27:06.561Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  }\n]"
+      },
+      "G36kRNhQsOArs4GHGHix": {
+        "eventType": "level_complete",
+        "timeSpentMs": 152941,
+        "runCount": 4,
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:41:47.233Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timeSpentSeconds": 153,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "completedLevels": 8,
+        "levelId": "level_001",
+        "experimentalGroup": "standard_ai",
+        "success": true
+      },
+      "GGU8K2iFAdJgVjJUCxYG": {
+        "eventType": "level_complete",
+        "localTime": "2026-09-08T14:25:30.633Z",
+        "runCount": 4,
+        "levelId": "tutorial_D",
+        "timeSpentMs": 159191,
+        "participantId": "P02",
+        "timeSpentSeconds": 159,
+        "levelPhase": "tutorial",
+        "currentLevel": "tutorial_D",
+        "completedLevels": 4,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "success": true
+      },
+      "Gs9IHwWenwZGSTJAXtGX": {
+        "playerCol": 0,
+        "targetCol": 0,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "targetRow": 7,
+        "collisionType": "pillars",
+        "currentLevel": "level_001",
+        "playerDirection": "SOUTH",
+        "eventType": "collision",
+        "objectType": "pillars",
+        "levelId": "level_001",
+        "participantId": "P02",
+        "localTime": "2026-09-08T14:41:43.916Z",
+        "levelPhase": "experimental",
+        "objectId": "level1_pillar_b",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "HcAXATgrU9QK1wS2IKqu": {
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "localTime": "2026-09-08T14:27:46.673Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  }\n]"
+      },
+      "HiHAS3B425PRBCq8mbJo": {
+        "currentLevel": "level_003",
+        "levelId": "level_003",
+        "localTime": "2026-09-08T14:39:00.944Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"k_:AS5(gJ|3hwnv=8mMN\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"zunD]eXU3k(!FjFQQ,_)\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"wbHk;wsvAUb^m|iK*ug1\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"nFVRT`.,Ggc1w$Uc)5=?\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1yx(Wm:=VViBC6%bb:Jf\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"42Sf/BNVzV:TAH^HeO_4\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"}b}71ckrf}9)Xr4SQ9h@\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"@?0jrao0u0ANFT6tis5[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"^)D3MEU9.4NB?KUMKC9/\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6w:!?B[OD-n?cR+d(?zy\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"!/^XRV6Wz)l/@ai+*-_g\"\n  }\n]"
+      },
+      "HutmPGBPwWaFLLOjOAa3": {
+        "currentLevel": "tutorial_E",
+        "localTime": "2026-09-08T14:30:52.833Z",
+        "levelId": "level_002",
+        "lineCount": 2,
+        "eventType": "dialogue_shown",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "ITZ8aCtrhZCGDvPyQ1IS": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:19:46.559Z",
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_B",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 5,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"wD$ZgHJnns9h8]E_,q,D\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"XLd6ST9wd:YjB*c_!3d,\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"S$e}t9Hg3nDK}me48~TI\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"~wd)fQpeTe1.*?+hLfb~\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"qK:EU()-wQ;+WWHihHa$\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"m#?!k;RYiMr`7*0Cezb1\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"!14rcy(=]3(`:Nxi4*jR\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YU6zSAR?43Zh*/jDH_EM\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[bR^7+#:9v`y8[+5x=-z\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zw#wFu(0cIb`VbkP1lk^\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"vr,n/1xepvsJNpW1Gpy3\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"-3}t^2_E^C3IX((DvA}f\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"Q[2I#xq=)hiVPvlk^PyS\"\n  }\n]"
+      },
+      "IfldfqB1ua6bY870MGlp": {
+        "playerCol": 1,
+        "dropRow": 6,
+        "dropCol": 2,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "eventType": "drop_action",
+        "playerDirection": 1,
+        "currentLevel": "level_001",
+        "objectType": "moveable",
+        "levelId": "level_001",
+        "participantId": "P02",
+        "localTime": "2026-09-08T14:41:19.167Z",
+        "levelPhase": "experimental",
+        "objectId": "level1_box",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "IlYagC3IG8BjLPPKdfJx": {
+        "currentLevel": "tutorial_D",
+        "localTime": "2026-09-08T14:25:40.230Z",
+        "eventType": "dialogue_dismissed",
+        "levelId": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "readTimeMs": 8008,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "KsOGelc36vuxCYfCd2VI": {
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "localTime": "2026-09-08T14:32:42.880Z",
+        "currentLevel": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  }\n]"
+      },
+      "L8AAxPaEmeriPKJ3qljn": {
+        "playerCol": 1,
+        "dropRow": 7,
+        "dropCol": 2,
+        "isExperiment": true,
+        "playerRow": 7,
+        "experimentalGroup": "standard_ai",
+        "eventType": "drop_action",
+        "levelId": "level_001",
+        "objectId": "level1_box",
+        "objectType": "moveable",
+        "localTime": "2026-09-08T14:41:46.916Z",
+        "participantId": "P02",
+        "currentLevel": "level_001",
+        "levelPhase": "experimental",
+        "playerDirection": 1,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "LlKYhUAqY4LPTSA7INKx": {
+        "currentLevel": "tutorial_C",
+        "localTime": "2026-09-08T14:22:51.438Z",
+        "levelId": "tutorial_D",
+        "eventType": "dialogue_dismissed",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 9264,
+        "experimentalGroup": "standard_ai"
+      },
+      "MqBj89CJz7nvZVzN3TsU": {
+        "currentLevel": "tutorial_C",
+        "levelId": "tutorial_C",
+        "localTime": "2026-09-08T14:22:34.601Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"8yyQ[Z9[#?*id-igp#5z\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"qd3C2:a(HV/-HHq3?Ys1\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"9:jr@u*v#nIr9TS(;gS|\",\n    \"fields\": {\n      \"ATTR\": \"priority\"\n    }\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \"7V;]43r7NiK2W.}/;nXS\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"zd1Yp-GC+VD4,POo?d9:\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"UWm,V)A|hGhZ7UfiXmQt\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"a`er5K!?]fzeV^E=SwyY\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"0KtF-2[k7._l@r%I[CFS\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"|MVIz;?XL}i_)whMcN;m\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^susU_.{B5zSToIErF|q\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \")M6}8*X!rTF2s52Ebk?0\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"^C}|%MFx[X-vb6@dchf|\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"+`+$HT#:$@8h[((P@s!A\"\n  }\n]"
+      },
+      "NsvOQwptEpbF9Vh6gKOO": {
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:41:36.921Z",
+        "levelId": "level_001",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"o.~L=9T4,=td/hmcQn,n\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"LGs]yK!eQBA8W6`N}|Zk\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"eox6-+@DGl!J:Aga]}u2\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"{Zm?klrdoP~~v)T_0GlN\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"Y=fT-yf|,iqm-fxB7-u+\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"4*a^;%d]CiL=|vgaZO-g\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"51`KmeUMBmtn(NXW|Y|Y\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"}N)w73+R90L0*u_lj#r+\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"4ajP3`MI`u4CyiSR|=U_\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"*+)Rv*x)xr.19LwE^3Js\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"LWg:?)P2;q=.-s,5+^1e\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"EVfY+,)A1q5ZZoP=7q!m\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"G_eIvy,TKs_@+Vs39f/r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"[xJ|PZUOiCFOsYR!mzq/\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \";)_%}8}i*N=pqUy.QDu3\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"!j!B7iG}?]W=?-ifWB{s\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"lt)Zp[.X9$`EgfmRUqM#\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"PGyk|MixEAw?dU)oA2jK\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Iyx;vI]7o-0!2.X4@tPh\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"O+2iN*sZb(im/YNX_4!t\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"~_mDOai(ekfWO=K$OuM6\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \".Uu/#So|+p_^=^vlC_.h\"\n  }\n]"
+      },
+      "O2hrvQnESjhYlvaajM9J": {
+        "currentLevel": "tutorial_A",
+        "localTime": "2026-09-08T14:15:17.774Z",
+        "levelId": "tutorial_A",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  }\n]"
+      },
+      "Ofex2G0iS8QjltyEYyIQ": {
+        "currentLevel": "tutorial_C",
+        "localTime": "2026-09-08T14:21:30.776Z",
+        "eventType": "run_simulation",
+        "levelId": "tutorial_C",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"8yyQ[Z9[#?*id-igp#5z\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \"7V;]43r7NiK2W.}/;nXS\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"qd3C2:a(HV/-HHq3?Ys1\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"9:jr@u*v#nIr9TS(;gS|\",\n    \"fields\": {\n      \"ATTR\": \"priority\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"zd1Yp-GC+VD4,POo?d9:\"\n  }\n]"
+      },
+      "PGX2EEvizDFzIXAulmVj": {
+        "currentLevel": "tutorial_D",
+        "levelId": "tutorial_D",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:25:23.823Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"yq%[b.@4OIB*0?OF#8yd\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"/e9(V?wz}pzD,YKM@#)~\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"35lC}nLjtUPIwBX2(8((\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"QSd={T+#A,$H%fiwXlHo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"7S#NaxPZRSn4-i.j3z4.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"6DhFL?(A8O^Hlc7f@iie\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"9;F99c^c%%6Tmn6Hv8([\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"v9(=E#,/ZOd!jV,mz7O{\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"!!w`2tb[2HX8#-a8~~hA\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"k1oA(AJ{/ALDFX{)Up8n\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"62dt5h$I,k@jeePZ[BSJ\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"BQ?EFU46A$B*yJ:bVI2o\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Csb2i8[4]f,k`(_CWBxK\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"TxIyCm%;#i^_^^Gt$j:6\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"cx-6wq#8LQEut7C`%{ei\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"lc_O!$j2=Lxf91aNjML{\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"QAt)5SSu;R}b9-_-LUk$\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"J[|~BbZ5TTdeMCqTN;)?\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")jpTuOemZcxzc2IFDE0V\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \":Xycg:71E*QkvRBPZRuq\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"V@MEKZnTHGH.(rWP=+wQ\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"a3pZBD`t@0s$)C4@V[I_\"\n  }\n]"
+      },
+      "PJAt5L7DRMqhrU1IHetw": {
+        "eventType": "level_complete",
+        "localTime": "2026-09-08T14:39:06.236Z",
+        "runCount": 2,
+        "levelId": "level_003",
+        "timeSpentMs": 18079,
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "currentLevel": "level_003",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "completedLevels": 7,
+        "timeSpentSeconds": 18,
+        "success": true
+      },
+      "PfjS2A9bw73YYrhQkSMH": {
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:33:33.497Z",
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  }\n]"
+      },
+      "QzfC4HqvFpugUqAjkWSx": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:40:22.228Z",
+        "levelId": "level_001",
+        "currentLevel": "level_001",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"o.~L=9T4,=td/hmcQn,n\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"LGs]yK!eQBA8W6`N}|Zk\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"eox6-+@DGl!J:Aga]}u2\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"{Zm?klrdoP~~v)T_0GlN\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"Y=fT-yf|,iqm-fxB7-u+\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"4*a^;%d]CiL=|vgaZO-g\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"51`KmeUMBmtn(NXW|Y|Y\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"}N)w73+R90L0*u_lj#r+\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"4ajP3`MI`u4CyiSR|=U_\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"*+)Rv*x)xr.19LwE^3Js\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"LWg:?)P2;q=.-s,5+^1e\"\n  }\n]"
+      },
+      "R3dMEQMZnYcOBwA57zC2": {
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_B",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:18:36.463Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"wD$ZgHJnns9h8]E_,q,D\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  }\n]"
+      },
+      "SS8PpjszFes4AJk3Z6Sn": {
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "localTime": "2026-09-08T14:30:07.399Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 6,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")*EcO$|;/+!a}D{z=m:}\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"%tCa#Jr$BEMy/2g2ie39\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"kzMpsr^+.L!fj8@VI[P7\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"0np?l`zfN$5!o^/AyCoo\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \",N*7d,=Jx)(s1E_jlM2(\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  }\n]"
+      },
+      "T4RmTRKsdYyQDiwZ0OHK": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:19:12.998Z",
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_B",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"!14rcy(=]3(`:Nxi4*jR\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"wD$ZgHJnns9h8]E_,q,D\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YU6zSAR?43Zh*/jDH_EM\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"XLd6ST9wd:YjB*c_!3d,\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"S$e}t9Hg3nDK}me48~TI\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"~wd)fQpeTe1.*?+hLfb~\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"m#?!k;RYiMr`7*0Cezb1\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"qK:EU()-wQ;+WWHihHa$\"\n  }\n]"
+      },
+      "TNFfDO1M2E9zMxhMlxqe": {
+        "eventType": "dialogue_dismissed",
+        "localTime": "2026-09-08T14:30:56.217Z",
+        "currentLevel": "tutorial_E",
+        "levelId": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "readTimeMs": 3384,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "VSRW8RPgEwu1Fuiw1TUH": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:29:39.022Z",
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")*EcO$|;/+!a}D{z=m:}\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"%tCa#Jr$BEMy/2g2ie39\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"kzMpsr^+.L!fj8@VI[P7\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"0np?l`zfN$5!o^/AyCoo\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  }\n]"
+      },
+      "WP1ErT4xV7TEnMZhz5Mo": {
+        "eventType": "level_start",
+        "levelId": "level_002",
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:30:56.222Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "WdbZH3EkCXNknHc0MazY": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:18:07.967Z",
+        "levelId": "tutorial_B",
+        "currentLevel": "tutorial_B",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  }\n]"
+      },
+      "WjSPGo94uAMWLx0QAqUU": {
+        "playerCol": 6,
+        "dropRow": 6,
+        "dropCol": 7,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "objectId": "level4_box_good",
+        "playerDirection": 1,
+        "localTime": "2026-09-08T14:45:40.722Z",
+        "objectType": "moveable",
+        "currentLevel": "level_004",
+        "participantId": "P02",
+        "levelId": "level_004",
+        "levelPhase": "experimental",
+        "eventType": "drop_action",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "XOesnf087zkoYiZkS31d": {
+        "playerCol": 0,
+        "targetCol": 0,
+        "isExperiment": true,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 6,
+        "targetRow": 7,
+        "collisionType": "pillars",
+        "objectId": "level1_pillar_b",
+        "playerDirection": "SOUTH",
+        "localTime": "2026-09-08T14:41:17.664Z",
+        "objectType": "pillars",
+        "currentLevel": "level_001",
+        "participantId": "P02",
+        "eventType": "collision",
+        "levelPhase": "experimental",
+        "levelId": "level_001",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "XRSifPL7R7LxnxGS5Iph": {
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "localTime": "2026-09-08T14:36:28.129Z",
+        "currentLevel": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 5,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Sg;];E6fF+*sEfp.TNCe\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"l-3ohAAQ|Bur{u5~4ARE\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"A}VlW|Xy+e8}ff}^nQCf\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YqVa;g7)$JVmH7j@$Gdy\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"JDT5^~4s;NTjJR86vhkc\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i{T%gwBGl9u2(c5=R}e@\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"MImpT63l)sLqw!lny5jI\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"l2Sb:xzLQ[@-qg;I_XVn\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"T9tXjA4ZQ2e/e)BWwI`B\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^k9A*5H|vou/BW;~F_99\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \";@OZ1@W-@s7~V@H?7%8$\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \":,7f(wlG-jITyiy=LEPK\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"FiK31:W3)dJ)|CWTWBu1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"{-!%N7ot3%PJX8z]7**.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"[RSZwqg`[D%L9R-Im+/U\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"dtmfn2%bz:4)0!U[1@q[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6:v@7aaj]U@ZPJIwDMk9\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"]ZoiJV?/,EgcLD4`uQxI\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"mj_;l/;P?E**Ry/_/hJ!\"\n  }\n]"
+      },
+      "YfZa0h4NqbQ8ymJjfGjF": {
+        "eventType": "level_start",
+        "levelId": "level_004",
+        "localTime": "2026-09-08T14:41:55.986Z",
+        "currentLevel": "level_004",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "ZLHVptWCetO5lvB7n7zT": {
+        "playerCol": 3,
+        "dropRow": 5,
+        "dropCol": 3,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 4,
+        "currentLevel": "tutorial_E",
+        "playerDirection": 0,
+        "levelId": "tutorial_E",
+        "objectType": "moveable",
+        "objectId": "tutorial_e_box",
+        "participantId": "P02",
+        "eventType": "drop_action",
+        "levelPhase": "tutorial",
+        "localTime": "2026-09-08T14:30:51.364Z",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "ZRfXrt13wFmlEkDCXRGV": {
+        "eventType": "run_simulation",
+        "levelId": "tutorial_B",
+        "localTime": "2026-09-08T14:18:23.510Z",
+        "currentLevel": "tutorial_B",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"ejGb@ZOd9R?PRhR`|.N(\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \",^}Bk)XTbq1Sr]vYj7*5\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"s:BS:pk-WTLu]5eMl?7r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"|]Sm4QNnek2nrhS60Bbs\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"wD$ZgHJnns9h8]E_,q,D\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"dqT=74nkuiN{XHNE/|k?\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"[?taDx,]F=tj?*5/lp}%\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"m`N~XO+.D~,p$zFLd-LJ\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"/XF]7~I*m[+I66%b!4#R\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"nQ%TTrll+*}fb;%D/qwR\"\n  }\n]"
+      },
+      "ZdiotA3CJlpWs9IbrX11": {
+        "currentLevel": "level_004",
+        "localTime": "2026-09-08T14:45:08.629Z",
+        "eventType": "run_simulation",
+        "levelId": "level_004",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \")TpR{38kJ,V}G[S#3.9l\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"ek;6)1M_/m%^FdME0O_?\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"ne8PwNIqS4*;uUIFw/Bb\",\n    \"fields\": {\n      \"TYPE\": \"wall\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"#l;8.bm%OUP@q:J(x$8e\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Xxv^.=}S#]rTfsD(sOEo\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"wKucnn?oxf6xfL5mfHHU\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"`lfMvRW..ZU0L1_p/ec.\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"F9E8!/()QY0wrVD$eWyk\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"U@v+eJz?kw/))X.WE*WJ\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"ucK4bii(pNX8M9Jv06^O\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zp*M{UIP,$4a1*y{*^eS\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"((^*RbnosOv?EaJb|eI$\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"k1qmBX)12/Y`WQaR4=ed\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"49cGSUl4KiH7p.,f?VzX\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \",I-DTpZ|c)!LiAK(,(]V\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"0x)1-I_1R[m%4N~{XozS\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"ey.myG;-$7Y|Cb$ye)oG\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"JU`#%NQFM~Izt9s8V@sO\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1468.h[FR9GoH$?DaTz$\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"r)ket.%Vq3~P83h/[zfP\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Uxv:#Q(jHl}MAIZLr`nd\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"aQ=ubFww$4z]le6GH(o5\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"d6!yczxQB^Zf:K2{/N4A\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"I@a{dlp06s`[Wt7u$ObH\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"cw)LK=g8RiMGIeMX%J,C\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"oBbKP=]#v(?:]po=PO]K\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"rp$9O_$x6+9vLN)!M13%\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"B6)=7$b{Db2x3/L%WU[^\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \".~bV+T5@:c~cjMuhj[HL\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"2%?]ff%HOw;FpC0d!P3i\",\n    \"fields\": {\n      \"NUM\": 4\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qCD6|r=jPJWqr$BS~y|+\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"T?`K-+%L1:y8`%iXTu79\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"uPIOATXdkPt2KN+~B4xC\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qIRje3}ssa|jR`[6hktI\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \".c?svsG$Z74|j{|~hbf/\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"cG?Zn`]^q`eReHNv3ERM\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"i3CV_L^*qY86+,hZl;v!\"\n  }\n]"
+      },
+      "aNpREYb1K6asYBddIHSV": {
+        "currentLevel": "tutorial_D",
+        "levelId": "tutorial_E",
+        "eventType": "dialogue_shown",
+        "lineCount": 3,
+        "localTime": "2026-09-08T14:25:32.222Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "aatEXKktdSdQ99KlLJri": {
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "currentLevel": "level_002",
+        "localTime": "2026-09-08T14:34:43.969Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"A}VlW|Xy+e8}ff}^nQCf\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i{T%gwBGl9u2(c5=R}e@\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"MImpT63l)sLqw!lny5jI\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"l2Sb:xzLQ[@-qg;I_XVn\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"T9tXjA4ZQ2e/e)BWwI`B\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^k9A*5H|vou/BW;~F_99\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \";@OZ1@W-@s7~V@H?7%8$\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \":,7f(wlG-jITyiy=LEPK\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"FiK31:W3)dJ)|CWTWBu1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"{-!%N7ot3%PJX8z]7**.\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  }\n]"
+      },
+      "anmwz4weYa1lD2danRRM": {
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_B",
+        "localTime": "2026-09-08T14:17:11.273Z",
+        "eventType": "level_start",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "b54OcMOayG7TRNgt6Dpp": {
+        "currentLevel": "level_002",
+        "levelId": "level_003",
+        "localTime": "2026-09-08T14:38:48.144Z",
+        "eventType": "dialogue_dismissed",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 9421,
+        "experimentalGroup": "standard_ai"
+      },
+      "bHN1FKyClfpB7HHa92TC": {
+        "eventType": "level_start",
+        "levelId": "level_003",
+        "currentLevel": "level_003",
+        "localTime": "2026-09-08T14:38:48.157Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "bxJsfh4FRlAbmZ6WFKFc": {
+        "eventType": "run_simulation",
+        "levelId": "level_002",
+        "localTime": "2026-09-08T14:38:18.009Z",
+        "currentLevel": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 7,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"A}VlW|Xy+e8}ff}^nQCf\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i{T%gwBGl9u2(c5=R}e@\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"l2Sb:xzLQ[@-qg;I_XVn\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"MImpT63l)sLqw!lny5jI\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"T9tXjA4ZQ2e/e)BWwI`B\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^k9A*5H|vou/BW;~F_99\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \";@OZ1@W-@s7~V@H?7%8$\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \":,7f(wlG-jITyiy=LEPK\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"FiK31:W3)dJ)|CWTWBu1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"{-!%N7ot3%PJX8z]7**.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"[RSZwqg`[D%L9R-Im+/U\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"dtmfn2%bz:4)0!U[1@q[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6:v@7aaj]U@ZPJIwDMk9\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"]ZoiJV?/,EgcLD4`uQxI\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"mj_;l/;P?E**Ry/_/hJ!\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Sg;];E6fF+*sEfp.TNCe\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"l-3ohAAQ|Bur{u5~4ARE\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YqVa;g7)$JVmH7j@$Gdy\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"JDT5^~4s;NTjJR86vhkc\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"JncHGI#F]Jf:tVp]=pLQ\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"-l:UN9H8#yco]+v{h@P,\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"0g:1K+`!F?Y!6^SXVuA^\",\n    \"fields\": {\n      \"NUM\": 5\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"%8#!_{vqc6%S%*n~cWHp\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"7`kRkZ@mt9!}DglF9{v.\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"KR72$Ya={Avreey42Pcy\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"gZc|(7k_3@n}m`YZ4Hop\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"/V3CfR^}N@,*wW!L+P6V\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"b[pFr~X-9,HwP}.6e^Sq\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"EKhH/vSs8p!E0:.1B=5b\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"}z1}xdM93Y@{(kQmbVA`\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"zn$kPcQZ4W^1g(;7)5cp\"\n  }\n]"
+      },
+      "e3c77nwMhKej6WW1s6rR": {
+        "eventType": "run_simulation",
+        "levelId": "level_004",
+        "localTime": "2026-09-08T14:44:21.051Z",
+        "currentLevel": "level_004",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \")TpR{38kJ,V}G[S#3.9l\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"ne8PwNIqS4*;uUIFw/Bb\",\n    \"fields\": {\n      \"TYPE\": \"wall\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"wKucnn?oxf6xfL5mfHHU\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"ek;6)1M_/m%^FdME0O_?\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Xxv^.=}S#]rTfsD(sOEo\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"`lfMvRW..ZU0L1_p/ec.\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"F9E8!/()QY0wrVD$eWyk\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"U@v+eJz?kw/))X.WE*WJ\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zp*M{UIP,$4a1*y{*^eS\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"ucK4bii(pNX8M9Jv06^O\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"((^*RbnosOv?EaJb|eI$\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"k1qmBX)12/Y`WQaR4=ed\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"49cGSUl4KiH7p.,f?VzX\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \",I-DTpZ|c)!LiAK(,(]V\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"0x)1-I_1R[m%4N~{XozS\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"JU`#%NQFM~Izt9s8V@sO\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"ey.myG;-$7Y|Cb$ye)oG\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1468.h[FR9GoH$?DaTz$\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Uxv:#Q(jHl}MAIZLr`nd\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"d6!yczxQB^Zf:K2{/N4A\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"cw)LK=g8RiMGIeMX%J,C\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"rp$9O_$x6+9vLN)!M13%\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"#l;8.bm%OUP@q:J(x$8e\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \".~bV+T5@:c~cjMuhj[HL\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"r)ket.%Vq3~P83h/[zfP\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"I@a{dlp06s`[Wt7u$ObH\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"oBbKP=]#v(?:]po=PO]K\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"B6)=7$b{Db2x3/L%WU[^\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"2%?]ff%HOw;FpC0d!P3i\",\n    \"fields\": {\n      \"NUM\": 4\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"T?`K-+%L1:y8`%iXTu79\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qCD6|r=jPJWqr$BS~y|+\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"uPIOATXdkPt2KN+~B4xC\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qIRje3}ssa|jR`[6hktI\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \".c?svsG$Z74|j{|~hbf/\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"cG?Zn`]^q`eReHNv3ERM\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"i3CV_L^*qY86+,hZl;v!\"\n  }\n]"
+      },
+      "eXqN6taJsZe9JoNz6lqp": {
+        "eventType": "run_simulation",
+        "levelId": "tutorial_A",
+        "currentLevel": "tutorial_A",
+        "localTime": "2026-09-08T14:16:53.014Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 6,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Q:pH#CnDR#.e`.sX`I8m\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"kmgop8~DwdG8R%;p)x[B\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"penl/L=j|2cm5q{p7Hx[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"SuY/6%F%{kQcfG#hBKQ5\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"z37,_tl(b`7le:4u5YN~\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Nd=n8GWqpQzRE6cD;-ay\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \";t@~IGClb-r,jNND?_lL\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"byz#S3YUGR4`3cm4:I?3\"\n  }\n]"
+      },
+      "ffPr2SNS3S0GO8ELRQ8w": {
+        "currentLevel": "level_001",
+        "levelId": "level_001",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:40:57.040Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"o.~L=9T4,=td/hmcQn,n\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"LGs]yK!eQBA8W6`N}|Zk\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"eox6-+@DGl!J:Aga]}u2\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"{Zm?klrdoP~~v)T_0GlN\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"Y=fT-yf|,iqm-fxB7-u+\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"4*a^;%d]CiL=|vgaZO-g\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"51`KmeUMBmtn(NXW|Y|Y\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"}N)w73+R90L0*u_lj#r+\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"4ajP3`MI`u4CyiSR|=U_\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"*+)Rv*x)xr.19LwE^3Js\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"LWg:?)P2;q=.-s,5+^1e\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"EVfY+,)A1q5ZZoP=7q!m\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"G_eIvy,TKs_@+Vs39f/r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"[xJ|PZUOiCFOsYR!mzq/\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \";)_%}8}i*N=pqUy.QDu3\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"lt)Zp[.X9$`EgfmRUqM#\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"!j!B7iG}?]W=?-ifWB{s\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"PGyk|MixEAw?dU)oA2jK\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \".Uu/#So|+p_^=^vlC_.h\"\n  }\n]"
+      },
+      "fxRiKGkYuyGAOFGdj6SA": {
+        "playerCol": 0,
+        "targetCol": 0,
+        "isExperiment": true,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 6,
+        "targetRow": 7,
+        "collisionType": "pillars",
+        "objectId": "level1_pillar_b",
+        "localTime": "2026-09-08T14:41:17.163Z",
+        "levelId": "level_001",
+        "objectType": "pillars",
+        "playerDirection": "SOUTH",
+        "participantId": "P02",
+        "eventType": "collision",
+        "levelPhase": "experimental",
+        "currentLevel": "level_001",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "hkSEbYFQnWe1aUfMXtBT": {
+        "currentLevel": "tutorial_D",
+        "levelId": "tutorial_D",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:23:52.926Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"yq%[b.@4OIB*0?OF#8yd\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"/e9(V?wz}pzD,YKM@#)~\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"QSd={T+#A,$H%fiwXlHo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"7S#NaxPZRSn4-i.j3z4.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"6DhFL?(A8O^Hlc7f@iie\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"9;F99c^c%%6Tmn6Hv8([\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"v9(=E#,/ZOd!jV,mz7O{\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"35lC}nLjtUPIwBX2(8((\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"!!w`2tb[2HX8#-a8~~hA\"\n  }\n]"
+      },
+      "hkWP2oBA2w4FLkoO86D7": {
+        "playerCol": 3,
+        "dropRow": 4,
+        "dropCol": 3,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 3,
+        "eventType": "drop_action",
+        "levelId": "tutorial_C",
+        "localTime": "2026-09-08T14:22:39.084Z",
+        "objectType": "moveable",
+        "objectId": "tutorial_c_box",
+        "participantId": "P02",
+        "currentLevel": "tutorial_C",
+        "levelPhase": "tutorial",
+        "playerDirection": 0,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "hpzlO1NoVLEuGVg9Xkqq": {
+        "currentLevel": "level_004",
+        "localTime": "2026-09-08T14:45:42.517Z",
+        "levelId": "survey_final",
+        "lineCount": 2,
+        "eventType": "dialogue_shown",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "hr9FrVB4xgSJ7hG4QM8e": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:30:47.871Z",
+        "levelId": "tutorial_E",
+        "currentLevel": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 8,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")*EcO$|;/+!a}D{z=m:}\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \"ga`v`)rt/YFub#.^WX8c\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"%tCa#Jr$BEMy/2g2ie39\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"kzMpsr^+.L!fj8@VI[P7\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"0np?l`zfN$5!o^/AyCoo\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \",N*7d,=Jx)(s1E_jlM2(\"\n  }\n]"
+      },
+      "i1BRaEhTNEXcPaylfC6a": {
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:39:14.292Z",
+        "eventType": "level_start",
+        "levelId": "level_001",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "i1KAoBmfWkbi06hO5DFo": {
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:41:10.177Z",
+        "levelId": "level_001",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"o.~L=9T4,=td/hmcQn,n\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"LGs]yK!eQBA8W6`N}|Zk\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"eox6-+@DGl!J:Aga]}u2\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"{Zm?klrdoP~~v)T_0GlN\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"Y=fT-yf|,iqm-fxB7-u+\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"4*a^;%d]CiL=|vgaZO-g\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"51`KmeUMBmtn(NXW|Y|Y\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"}N)w73+R90L0*u_lj#r+\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"4ajP3`MI`u4CyiSR|=U_\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"*+)Rv*x)xr.19LwE^3Js\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"LWg:?)P2;q=.-s,5+^1e\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"EVfY+,)A1q5ZZoP=7q!m\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"G_eIvy,TKs_@+Vs39f/r\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"[xJ|PZUOiCFOsYR!mzq/\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \";)_%}8}i*N=pqUy.QDu3\",\n    \"fields\": {\n      \"NUM\": 7\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"lt)Zp[.X9$`EgfmRUqM#\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"!j!B7iG}?]W=?-ifWB{s\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"PGyk|MixEAw?dU)oA2jK\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \".Uu/#So|+p_^=^vlC_.h\"\n  }\n]"
+      },
+      "i1wKFsfdvgImIV4cGZoS": {
+        "currentLevel": "tutorial_D",
+        "localTime": "2026-09-08T14:24:53.399Z",
+        "eventType": "run_simulation",
+        "levelId": "tutorial_D",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"yq%[b.@4OIB*0?OF#8yd\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"/e9(V?wz}pzD,YKM@#)~\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"35lC}nLjtUPIwBX2(8((\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"QSd={T+#A,$H%fiwXlHo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"7S#NaxPZRSn4-i.j3z4.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"6DhFL?(A8O^Hlc7f@iie\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"9;F99c^c%%6Tmn6Hv8([\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"v9(=E#,/ZOd!jV,mz7O{\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"k1oA(AJ{/ALDFX{)Up8n\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"!!w`2tb[2HX8#-a8~~hA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"62dt5h$I,k@jeePZ[BSJ\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"BQ?EFU46A$B*yJ:bVI2o\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Csb2i8[4]f,k`(_CWBxK\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"TxIyCm%;#i^_^^Gt$j:6\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"cx-6wq#8LQEut7C`%{ei\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"lc_O!$j2=Lxf91aNjML{\"\n  }\n]"
+      },
+      "i2sFf72jW9su7PqwagYS": {
+        "playerCol": 1,
+        "dropRow": 6,
+        "dropCol": 2,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "currentLevel": "level_001",
+        "localTime": "2026-09-08T14:41:05.531Z",
+        "eventType": "drop_action",
+        "objectType": "moveable",
+        "objectId": "level1_box",
+        "participantId": "P02",
+        "levelId": "level_001",
+        "levelPhase": "experimental",
+        "playerDirection": 1,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "iJkxfucIHKPGDBSIs2sk": {
+        "playerCol": 6,
+        "dropRow": 6,
+        "dropCol": 7,
+        "isExperiment": true,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 6,
+        "eventType": "drop_action",
+        "localTime": "2026-09-08T14:38:35.502Z",
+        "levelId": "level_002",
+        "objectType": "moveable",
+        "currentLevel": "level_002",
+        "participantId": "P02",
+        "objectId": "level2_box_good",
+        "levelPhase": "experimental",
+        "playerDirection": 1,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "ifxtLsf5VYlhwHuy1jA1": {
+        "playerCol": 3,
+        "dropRow": 7,
+        "dropCol": 3,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "eventType": "drop_action",
+        "localTime": "2026-09-08T14:39:05.936Z",
+        "currentLevel": "level_003",
+        "objectType": "moveable",
+        "levelId": "level_003",
+        "participantId": "P02",
+        "playerDirection": 0,
+        "levelPhase": "experimental",
+        "objectId": "level3_box",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "onConveyor": false
+      },
+      "jJXEeskrCbikOPF4cSt3": {
+        "currentLevel": "tutorial_A",
+        "localTime": "2026-09-08T14:16:08.350Z",
+        "levelId": "tutorial_A",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Q:pH#CnDR#.e`.sX`I8m\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"kmgop8~DwdG8R%;p)x[B\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"penl/L=j|2cm5q{p7Hx[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"SuY/6%F%{kQcfG#hBKQ5\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"byz#S3YUGR4`3cm4:I?3\"\n  }\n]"
+      },
+      "jUSa1DccexJ8KWfd8tYD": {
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_C",
+        "localTime": "2026-09-08T14:20:18.638Z",
+        "lineCount": 2,
+        "eventType": "dialogue_shown",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "mL0OX0yuQBi64cPjCL6A": {
+        "currentLevel": "tutorial_C",
+        "levelId": "tutorial_C",
+        "eventType": "level_start",
+        "localTime": "2026-09-08T14:20:27.798Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "nXnOdCx23QIZehmqM6X5": {
+        "currentLevel": "tutorial_B",
+        "levelId": "tutorial_C",
+        "eventType": "dialogue_dismissed",
+        "localTime": "2026-09-08T14:20:27.790Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 9152,
+        "experimentalGroup": "standard_ai"
+      },
+      "nxNrrvhEWXKNWJzoE73q": {
+        "currentLevel": "tutorial_A",
+        "localTime": "2026-09-08T14:17:11.270Z",
+        "levelId": "tutorial_B",
+        "eventType": "dialogue_dismissed",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 10192,
+        "experimentalGroup": "standard_ai"
+      },
+      "oC52zuAEjcSg7PRBagyR": {
+        "eventType": "dialogue_shown",
+        "levelId": "level_004",
+        "localTime": "2026-09-08T14:41:49.320Z",
+        "lineCount": 2,
+        "currentLevel": "level_001",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "oCkwwZ2kvfjBt0bHoCEN": {
+        "currentLevel": "level_003",
+        "levelId": "level_003",
+        "localTime": "2026-09-08T14:38:50.160Z",
+        "eventType": "run_simulation",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 1,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"k_:AS5(gJ|3hwnv=8mMN\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"zunD]eXU3k(!FjFQQ,_)\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"nFVRT`.,Ggc1w$Uc)5=?\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1yx(Wm:=VViBC6%bb:Jf\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"42Sf/BNVzV:TAH^HeO_4\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"}b}71ckrf}9)Xr4SQ9h@\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"@?0jrao0u0ANFT6tis5[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"^)D3MEU9.4NB?KUMKC9/\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6w:!?B[OD-n?cR+d(?zy\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"!/^XRV6Wz)l/@ai+*-_g\"\n  }\n]"
+      },
+      "oGdZdxHKAtqmjldHPQPp": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:28:03.933Z",
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"UNTIL\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  }\n]"
+      },
+      "oZRjVDiftqrLiMBMtd9U": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:29:57.593Z",
+        "levelId": "tutorial_E",
+        "currentLevel": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 5,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \")*EcO$|;/+!a}D{z=m:}\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"s$LcEp}%X}oAkqjh67m/\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"{;^]cuD51,eq_s}xN,4*\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"_LAaY=nZ;,ZcgTIUw1_`\",\n    \"fields\": {\n      \"ATTR\": \"hazard\"\n    }\n  },\n  {\n    \"type\": \"controls_whileUntil\",\n    \"id\": \":}:Xikv*yAf?fY3~7X:i\",\n    \"fields\": {\n      \"MODE\": \"WHILE\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"%tCa#Jr$BEMy/2g2ie39\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"GuA{Y0=B?!GMJzTw@+6S\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"tFe?-N@+*8EX)B+}lpFP\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"`or@fI*m#7nLFT[_;pH+\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"k.d?1o!7fTqZd;eiN1)#\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"P^X{2FrC,jw=j_8~i])D\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"8D*o$6L-}fsAco}a8=ny\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"kzMpsr^+.L!fj8@VI[P7\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"~!hH=rVk)N1h3+I}JZ^G\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"O4eyVi?SHLs:`T#LVpjC\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"Uq2s^*L*/e0f/{}}e,8g\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"0np?l`zfN$5!o^/AyCoo\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"`Ja6#cPW]KV[hmXDIhsq\",\n    \"fields\": {\n      \"NUM\": 3\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \",N*7d,=Jx)(s1E_jlM2(\"\n  }\n]"
+      },
+      "qK1iRSSuBc35yiOzmezn": {
+        "playerCol": 1,
+        "targetCol": 0,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "targetRow": 6,
+        "collisionType": "robot",
+        "eventType": "collision",
+        "playerDirection": "WEST",
+        "levelId": "level_002",
+        "objectType": "robot",
+        "localTime": "2026-09-08T14:36:18.024Z",
+        "participantId": "P02",
+        "currentLevel": "level_002",
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "qrYNQgCNN8pPFtNIBFSN": {
+        "eventType": "level_complete",
+        "levelId": "tutorial_A",
+        "runCount": 6,
+        "localTime": "2026-09-08T14:16:59.310Z",
+        "currentLevel": "tutorial_A",
+        "participantId": "P02",
+        "timeSpentSeconds": 143,
+        "levelPhase": "tutorial",
+        "isExperiment": false,
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "completedLevels": 1,
+        "timeSpentMs": 143233,
+        "success": true
+      },
+      "rE2ZSaEX7uD8JH5gPAhf": {
+        "currentLevel": "tutorial_A",
+        "levelId": "tutorial_A",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:15:33.510Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 2,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  }\n]"
+      },
+      "s8nUuFNpzeR0OYkXZLsO": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:15:46.342Z",
+        "currentLevel": "tutorial_A",
+        "levelId": "tutorial_A",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 3,
+        "codeSnapshot": "[\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"Fo2EC[5o:Y8bgsO2jvB2\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i`ujvmK/Rw4loRvwU)2R\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"68BQgV|`ZjUf5$P(@[md\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Z}9z]Fp;Znq?tBQE-%%j\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"BoAR|8%%TwM|NYg-kQz5\"\n  }\n]"
+      },
+      "tBkOgmHcsceUd9h54suj": {
+        "eventType": "level_start",
+        "levelId": "tutorial_E",
+        "currentLevel": "tutorial_E",
+        "localTime": "2026-09-08T14:25:40.240Z",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "tZOtnHBniP4arBSqoMvc": {
+        "currentLevel": "level_004",
+        "levelId": "level_004",
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:45:29.223Z",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai",
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"wKucnn?oxf6xfL5mfHHU\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \")TpR{38kJ,V}G[S#3.9l\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"ek;6)1M_/m%^FdME0O_?\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"ne8PwNIqS4*;uUIFw/Bb\",\n    \"fields\": {\n      \"TYPE\": \"wall\"\n    }\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"#l;8.bm%OUP@q:J(x$8e\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Xxv^.=}S#]rTfsD(sOEo\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"F9E8!/()QY0wrVD$eWyk\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"`lfMvRW..ZU0L1_p/ec.\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"U@v+eJz?kw/))X.WE*WJ\",\n    \"fields\": {\n      \"NUM\": 6\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"ucK4bii(pNX8M9Jv06^O\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"Zp*M{UIP,$4a1*y{*^eS\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"((^*RbnosOv?EaJb|eI$\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"k1qmBX)12/Y`WQaR4=ed\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"49cGSUl4KiH7p.,f?VzX\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \",I-DTpZ|c)!LiAK(,(]V\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"0x)1-I_1R[m%4N~{XozS\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"ey.myG;-$7Y|Cb$ye)oG\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"1468.h[FR9GoH$?DaTz$\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"JU`#%NQFM~Izt9s8V@sO\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"Uxv:#Q(jHl}MAIZLr`nd\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"r)ket.%Vq3~P83h/[zfP\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"d6!yczxQB^Zf:K2{/N4A\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"aQ=ubFww$4z]le6GH(o5\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"cw)LK=g8RiMGIeMX%J,C\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"I@a{dlp06s`[Wt7u$ObH\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"rp$9O_$x6+9vLN)!M13%\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"oBbKP=]#v(?:]po=PO]K\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \".~bV+T5@:c~cjMuhj[HL\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"B6)=7$b{Db2x3/L%WU[^\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"2%?]ff%HOw;FpC0d!P3i\",\n    \"fields\": {\n      \"NUM\": 4\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qCD6|r=jPJWqr$BS~y|+\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"T?`K-+%L1:y8`%iXTu79\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"uPIOATXdkPt2KN+~B4xC\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qIRje3}ssa|jR`[6hktI\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \".c?svsG$Z74|j{|~hbf/\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"cG?Zn`]^q`eReHNv3ERM\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"y3|_?qVs8HzRmGK)PxZD\"\n  },\n  {\n    \"type\": \"drop_object\",\n    \"id\": \"i3CV_L^*qY86+,hZl;v!\"\n  }\n]"
+      },
+      "tcaXvlpZQMDTm5whpGxB": {
+        "eventType": "run_simulation",
+        "localTime": "2026-09-08T14:36:16.536Z",
+        "levelId": "level_002",
+        "currentLevel": "level_002",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "runNumber": 4,
+        "codeSnapshot": "[\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"(yXac5-#oclY)W/H2Zgl\"\n  },\n  {\n    \"type\": \"custom_start\",\n    \"id\": \"9!xOvc/chq+tL(D`8cMF\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"JZ@J,ym9Szp0v9m$VFLp\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"}_p?=e{zv0+$`)vt}7Xs\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"A}VlW|Xy+e8}ff}^nQCf\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"l-3ohAAQ|Bur{u5~4ARE\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"Sg;];E6fF+*sEfp.TNCe\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"cq:VK?7V`R;JMRc8oU%m\",\n    \"fields\": {\n      \"NUM\": 10\n    }\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \"8z;YS$PYV+q(y)^le7s2\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"YqVa;g7)$JVmH7j@$Gdy\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"JDT5^~4s;NTjJR86vhkc\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"w$5[g#`o5Ol-[Bs#*3A+\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"DqY^`?Fu.@xU@-2jcwvk\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"x^zm,,lRs`vs.;9Mh=x{\"\n  },\n  {\n    \"type\": \"check_object_type\",\n    \"id\": \"`^{-R-]u3+kgR3Fep@S~\",\n    \"fields\": {\n      \"TYPE\": \"robot\"\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"qd7)*$(.LVYa}lHbnO).\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"|`UEg}9~z*,mVh-0ksgA\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"YmcQ08KB^#tQ.RF;;ioo\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"wbEl!2,TC*X$xC09n2P7\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"5yA7q2]0AJq;vs!)l#Km\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"?QDb@j7/l7__*Hv=sD$G\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"i{T%gwBGl9u2(c5=R}e@\"\n  },\n  {\n    \"type\": \"controls_repeat_ext\",\n    \"id\": \"*y9P?k[_b]v#j::`S@Pk\"\n  },\n  {\n    \"type\": \"math_number\",\n    \"id\": \"*=ctB)v1N*D4,.-2B?Fs\",\n    \"fields\": {\n      \"NUM\": 2\n    }\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"MImpT63l)sLqw!lny5jI\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"l2Sb:xzLQ[@-qg;I_XVn\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"T9tXjA4ZQ2e/e)BWwI`B\"\n  },\n  {\n    \"type\": \"turn_counter_clockwise\",\n    \"id\": \"^k9A*5H|vou/BW;~F_99\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \";@OZ1@W-@s7~V@H?7%8$\"\n  },\n  {\n    \"type\": \"controls_if\",\n    \"id\": \":,7f(wlG-jITyiy=LEPK\"\n  },\n  {\n    \"type\": \"logic_negate\",\n    \"id\": \"FiK31:W3)dJ)|CWTWBu1\"\n  },\n  {\n    \"type\": \"pick_object\",\n    \"id\": \"{-!%N7ot3%PJX8z]7**.\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"[RSZwqg`[D%L9R-Im+/U\"\n  },\n  {\n    \"type\": \"check_attribute\",\n    \"id\": \"(3JyIo3{b~4#X=|)h0-U\",\n    \"fields\": {\n      \"ATTR\": \"broken\"\n    }\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"dtmfn2%bz:4)0!U[1@q[\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"6:v@7aaj]U@ZPJIwDMk9\"\n  },\n  {\n    \"type\": \"turn_clockwise\",\n    \"id\": \"]ZoiJV?/,EgcLD4`uQxI\"\n  },\n  {\n    \"type\": \"move_forward\",\n    \"id\": \"mj_;l/;P?E**Ry/_/hJ!\"\n  }\n]"
+      },
+      "vCpW2Cg15JqnPZa9CSum": {
+        "eventType": "level_complete",
+        "timeSpentMs": 311425,
+        "runCount": 8,
+        "localTime": "2026-09-08T14:30:51.665Z",
+        "levelId": "tutorial_E",
+        "participantId": "P02",
+        "isExperiment": false,
+        "levelPhase": "tutorial",
+        "timeSpentSeconds": 311,
+        "completedLevels": 5,
+        "experimentalGroup": "standard_ai",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "currentLevel": "tutorial_E",
+        "success": true
+      },
+      "vDLe9uUCC19DZXMvpoOH": {
+        "playerCol": 0,
+        "targetCol": 0,
+        "isExperiment": true,
+        "playerRow": 6,
+        "experimentalGroup": "standard_ai",
+        "targetRow": 7,
+        "collisionType": "pillars",
+        "eventType": "collision",
+        "playerDirection": "SOUTH",
+        "levelId": "level_001",
+        "objectType": "pillars",
+        "objectId": "level1_pillar_b",
+        "participantId": "P02",
+        "currentLevel": "level_001",
+        "levelPhase": "experimental",
+        "localTime": "2026-09-08T14:41:04.029Z",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "wkXKHZKcajE2f8IT592G": {
+        "eventType": "level_complete",
+        "localTime": "2026-09-08T14:45:41.043Z",
+        "runCount": 4,
+        "levelId": "level_004",
+        "timeSpentMs": 225057,
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "currentLevel": "level_004",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "completedLevels": 9,
+        "experimentalGroup": "standard_ai",
+        "timeSpentSeconds": 225,
+        "success": true
+      },
+      "xOFe2hrm08KPgkmrLexq": {
+        "eventType": "dialogue_shown",
+        "localTime": "2026-09-08T14:39:07.824Z",
+        "levelId": "level_001",
+        "lineCount": 2,
+        "currentLevel": "level_003",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "experimentalGroup": "standard_ai"
+      },
+      "xgr0weuXfQ5ZRmR0EEzL": {
+        "playerCol": 3,
+        "targetCol": 3,
+        "isExperiment": false,
+        "experimentalGroup": "standard_ai",
+        "playerRow": 1,
+        "targetRow": 2,
+        "collisionType": "robot",
+        "currentLevel": "tutorial_E",
+        "levelId": "tutorial_E",
+        "eventType": "collision",
+        "objectType": "robot",
+        "localTime": "2026-09-08T14:28:05.931Z",
+        "participantId": "P02",
+        "playerDirection": "SOUTH",
+        "levelPhase": "tutorial",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        }
+      },
+      "xpOapBSISP1exzLOTbDd": {
+        "currentLevel": "level_004",
+        "levelId": "survey_final",
+        "localTime": "2026-09-08T14:45:47.933Z",
+        "eventType": "dialogue_dismissed",
+        "participantId": "P02",
+        "isExperiment": true,
+        "levelPhase": "experimental",
+        "timestamp": {
+          "_methodName": "serverTimestamp"
+        },
+        "readTimeMs": 5415,
+        "experimentalGroup": "standard_ai"
+      }
+    }
+  },
+  "exitSurvey": {
+    "meta": {
+      "durationSeconds": "192",
+      "finished": "True",
+      "progress": "100"
+    },
+    "answers": {
+      "Education Level": "Some College",
+      "General Programming_1": "4",
+      "Block-based Code_1": "Rarely",
+      "Robotics Experience": "No",
+      "AI Familiarity_1": "Weekly",
+      "QID10_1": "5",
+      "QID10_2": "5",
+      "QID10_3": "5",
+      "QID10_4": "5",
+      "QID11_1": "1",
+      "QID11_2": "2",
+      "QID13": "No, I didn't see a chatbot.",
+      "QID18": "I used the wrong sensor and spent extra time trying to get that one to work before realizing there was another sensor option (the hazard one instead of robot).",
+      "QID19": "N/a",
+      "QID23": "Hotkeys for adding blocks"
+    }
+  }
+}

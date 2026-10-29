@@ -1,0 +1,18 @@
+# Paper sources and regenerated outputs
+latex/
+analysis_plots/
+
+# Identifiable data: never commit. Only data/deidentified/ is released.
+data/raw/
+data/combined/
+
+# Firebase service account key (grants admin access to the database)
+*firebase-adminsdk*.json
+serviceAccountKey*.json
+
+# Python / OS
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

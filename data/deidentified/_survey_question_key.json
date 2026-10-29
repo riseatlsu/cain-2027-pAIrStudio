@@ -1,0 +1,23 @@
+{
+  "Education Level": "What is your current education level. The",
+  "General Programming_1": "Rate your experience with any programming language from 1 (Complete Beginner) to 5 (Expert). - Complete Beginner:Expert",
+  "Block-based Code_1": "How often have you used tools like Scratch or Blockly? - :",
+  "Robotics Experience": "Have you ever programmed a physical or simulated robot before?",
+  "AI Familiarity_1": "How often do you use Large Language Models (e.g., ChatGPT) for problem-solving? - :",
+  "QID10_1": "Rate your agreement with the following (1: Strongly Disagree to 5: Strongly Agree): - I felt capable of completing the warehouse puzzles provided.",
+  "QID10_2": "Rate your agreement with the following (1: Strongly Disagree to 5: Strongly Agree): - I am confident that I could explain my block-code logic to someone else.",
+  "QID10_3": "Rate your agreement with the following (1: Strongly Disagree to 5: Strongly Agree): - I felt I was in control of the robot’s behavior at all times.",
+  "QID10_4": "Rate your agreement with the following (1: Strongly Disagree to 5: Strongly Agree): - If I were given a new, more difficult warehouse task right now, I would feel confident in solving it.",
+  "QID11_1": "Please rank the difficulty of each type of programming you did in this experiment: - Authoring",
+  "QID11_2": "Please rank the difficulty of each type of programming you did in this experiment: - Debugging/Editing",
+  "QID13": "Did you have access to the AI chatbot when participating in the experiment?",
+  "QID12": "In which of the following task types was your partner (AI or Human) most helpful? (Select N/A if you didn't use the AI at all in the experiment)",
+  "Communication Qual_1": "My partner provided clear and actionable suggestions. (1: Strongly Disagree to 5: Strongly Agree) (Select N/A if you didn't use the AI at all in the experiment) - :",
+  "Dependency_1": "I found myself waiting for my partner's input before making my own moves. (1: Never to 5: Always) (Select N/A if you didn't use the AI at all in the experiment) - :",
+  "Trust_1": "I felt I could rely on my partner’s suggestions without double-checking them. (1: Strongly Disagree to 5: Strongly Agree)(Select N/A if you didn't use the AI at all in the experiment) - :",
+  "QID18": "What was the most significant hurdle you encountered while trying to navigate the robot through the warehouse? (Please refrain from providing any personally identifiable information in your response. This includes your name, email address, physical address, or any other identifying details.)",
+  "QID19": "Describe any logic concepts in the blocks that were difficult to grasp. (Please refrain from providing any personally identifiable information in your response. This includes your name, email address, physical address, or any other identifying details.)",
+  "QID21": "Describe a specific instance where your partner helped you overcome a \"Hard\" difficulty task. (Please refrain from providing any personally identifiable information in your response. This includes your name, email address, physical address, or any other identifying details.)",
+  "QID22": "Were there moments where your partner's advice contradicted your own intuition? How did you resolve that? (Please refrain from providing any personally identifiable information in your response. This includes your name, email address, physical address, or any other identifying details.)",
+  "QID23": "If you could change one thing about the pAIrStudio interface to make programming easier, what would it be? (Please refrain from providing any personally identifiable information in your response. This includes your name, email address, physical address, or any other identifying details.)"
+}
