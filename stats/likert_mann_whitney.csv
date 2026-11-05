@@ -1,0 +1,5 @@
+question,item,control_n,standard_ai_n,control_mean,standard_ai_mean,U_standard_ai,p_exact
+QID10_1,Felt capable of completing the tasks,5,7,4.6,4.7143,21.0,0.5227
+QID10_2,Confident explaining my code logic,5,7,4.8,4.8571,18.5,1.0
+QID10_3,Felt in control of the robot,5,7,4.2,4.4286,22.0,0.4823
+QID10_4,Confident on a harder future task,5,7,4.2,4.2857,19.0,0.9242

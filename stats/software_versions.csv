@@ -1,0 +1,7 @@
+package,version
+Python,3.14.6
+numpy,2.5.3
+pandas,2.3.3
+scipy,1.18.1
+matplotlib,3.11.2
+scikit-survival,0.28.0

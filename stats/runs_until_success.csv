@@ -1,0 +1,14 @@
+group,participant,avg_runs_until_success,tasks_completed
+control,P01,6.75,4
+control,P06,9.0,4
+control,P11,7.5,4
+control,P12,5.25,4
+standard_ai,P02,4.25,4
+standard_ai,P03,1.75,4
+standard_ai,P05,9.5,2
+standard_ai,P07,7.5,4
+standard_ai,P08,8.0,1
+standard_ai,P09,4.5,4
+standard_ai,P10,6.25,4
+control,median (n=4),7.125,
+standard_ai,median (n=7),6.25,

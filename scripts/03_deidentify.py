@@ -14,12 +14,16 @@ de-identified copy to data/deidentified/:
   - Removes the Firebase user ID, Prolific ID, Qualtrics response IDs and the
     survey response timestamps.
   - Fails if any removed identifier still appears anywhere in the output.
+  - Also writes the exit survey answers as a flat table, exit_survey.csv (one
+    row per participant, one column per question), and the question wording
+    for each column, exit_survey_questions.csv.
 
 Usage:
     python scripts/03_deidentify.py --combined-dir data/combined --out data/deidentified
 """
 
 import argparse
+import csv
 import json
 import re
 import shutil
@@ -114,6 +118,26 @@ def deidentify(p, new_id):
     return out
 
 
+def write_survey_csv(combined, question_key, out_dir):
+    """
+    exit_survey.csv: one row per participant (participantId, experimentalGroup,
+    then every question in Qualtrics order; blank = not answered or not shown).
+    exit_survey_questions.csv: the question wording for each column.
+    """
+    questions = list(question_key)
+    questions += [q for p in combined.values() for q in p["exitSurvey"]["answers"] if q not in questions]
+    with (out_dir / "exit_survey.csv").open("w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["participantId", "experimentalGroup"] + questions)
+        for pid, p in combined.items():
+            answers = p["exitSurvey"]["answers"]
+            writer.writerow([pid, p["experimentalGroup"]] + [answers.get(q, "") for q in questions])
+    with (out_dir / "exit_survey_questions.csv").open("w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["column", "question"])
+        writer.writerows([q, question_key.get(q, "")] for q in questions)
+
+
 def main():
     parser = argparse.ArgumentParser(description="De-identify the combined dataset for public release.")
     parser.add_argument("--combined-dir", default=REPO_ROOT / "data" / "combined",
@@ -166,6 +190,8 @@ def main():
     with (out_dir / "_combined_dataset.json").open("w", encoding="utf-8") as f:
         json.dump(combined, f, indent=2, ensure_ascii=False)
     shutil.copy(combined_dir / "_survey_question_key.json", out_dir / "_survey_question_key.json")
+    with (combined_dir / "_survey_question_key.json").open(encoding="utf-8") as f:
+        write_survey_csv(combined, json.load(f), out_dir)
 
     print(f"Wrote {len(combined)} participant file(s) to {out_dir}/")
 

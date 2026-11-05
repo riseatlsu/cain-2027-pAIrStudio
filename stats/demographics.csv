@@ -1,0 +1,22 @@
+row,n,percent
+Education,,
+Some College,9,75
+Bachelor's,3,25
+Programming experience (1-5),,
+2,2,17
+3,6,50
+4,4,33
+Block-based coding use,,
+Never,7,58
+Rarely,2,17
+Occasionally,3,25
+Programmed a robot before,,
+Yes,3,25
+No,9,75
+LLM use for problem-solving,,
+Daily,5,42
+Weekly,5,42
+Monthly,1,8
+Never,1,8
+Programming experience mean,3.17,
+Programming experience SD,0.72,

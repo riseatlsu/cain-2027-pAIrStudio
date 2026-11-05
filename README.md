@@ -1,204 +1,162 @@
-# pAIrStudio Replication Package
+# pAIrStudio: Replication Package
 
-Data and analysis scripts to reproduce the figures, tables and statistical tests
-in the pAIrStudio paper. Participants solved block-based robot programming tasks
-either alone ("Solo", internal id `control`) or with an AI partner ("Human+AI",
-internal id `standard_ai`), then completed an exit survey.
+Replication package for the paper **"pAIrStudio: A Preliminary Study on Human-AI
+Collaboration in Industrial Robot Programming."** It holds the de-identified study
+data and the scripts that reproduce every figure, table and statistic in the paper.
+
+## About the study
+
+*pAIrStudio* is a web-based, block-based robot programming environment with an
+embedded LLM pair programming partner, **Otto** (OpenAI gpt-4o, few-shot prompted
+with the current task, the state of the simulated warehouse and the participant's
+blocks). Participants program a mobile robot in a tile-based warehouse simulation to
+pick up boxes from a pickup zone and drop them onto a conveyor in a drop-off zone.
+The platform is available at <https://riseatlsu.github.io/pAIrStudio/sandbox/>.
+
+In a between-subjects study, **12 novice programmers** (undergraduate Computer
+Science students) each attended an individual 70-minute lab session. They were
+randomly assigned to program alone (**Solo**, *n* = 5) or with Otto (**Human+AI**,
+*n* = 7). After five short tutorials, they solved four tasks in a counterbalanced
+order (balanced Latin square):
+
+| Task | Phase | Difficulty | Description |
+|------|-------|------------|-------------|
+| T1 | Authoring | Easy | Write a program from scratch |
+| T2 | Authoring | Hard | Write a program from scratch, with obstacles and a patrolling robot |
+| T3 | Debugging/Editing | Easy | Fix provided code with a bug that prevents pickup |
+| T4 | Debugging/Editing | Hard | Complete provided, unfinished code, with obstacles and a patrolling robot |
+
+Participants could not skip or revisit tasks, and could run their code any number of
+times. The platform logged every code run (with a snapshot of the program), every
+message exchanged with Otto, and task completions. A 20-item exit questionnaire
+covered background, self-efficacy, the perceived difficulty of each phase, and
+(Human+AI only) experience with Otto. The study was approved by our institutional
+review board.
 
 ## Repository layout
 
 ```
-data/
-  deidentified/              released data (one JSON file per participant)
-    P01.json ... P12.json    Firestore record + event log + exit survey answers
-    _combined_dataset.json   all participants in one file, keyed by participant ID
-    _survey_question_key.json  survey answer key -> full question text
+data/deidentified/               released study data (12 participants)
+  P01.json ... P12.json          one file per participant: group, event log, Otto chats, exit survey
+  _combined_dataset.json         all 12 participants in one file
+  _survey_question_key.json      survey answer key -> question text
+  exit_survey.csv                exit survey answers, one row per participant
+  exit_survey_questions.csv      question text for each exit_survey.csv column
+figs/                            figures in the paper (EPS for LaTeX, PNG for viewing)
+stats/                           every statistic reported in the paper, one CSV per analysis
 scripts/
-  01_download_firestore.py   download the raw Firestore database      (needs access)
-  02_combine_datasets.py     merge Firestore data with the exit survey (needs raw data)
-  03_deidentify.py           strip identifiers -> data/deidentified/   (needs raw data)
-  04_generate_plots.py       figures, tables and per-level tests
-  05_survival_analysis.py    Kaplan-Meier / log-rank analysis of session time
-figs/                        figures as they appear in the paper
+  04_analysis.py                 reproduces figs/ and stats/ from data/deidentified/
+  01_download_firestore.py       data collection pipeline (needs access to the raw data;
+  02_combine_datasets.py           listed for transparency, see below)
+  03_deidentify.py
 requirements.txt
 ```
 
-Running the scripts writes their output to `analysis_plots/` (not tracked).
+## Reproducing the results
 
-## Replicating the results
-
-Only the de-identified data is needed. Tested with Python 3.14.6:
+Only the de-identified data is needed. Tested with Python 3.14.6 (package versions in
+`stats/software_versions.csv`):
 
 ```
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-python scripts/04_generate_plots.py
-python scripts/05_survival_analysis.py
+python scripts/04_analysis.py
 ```
 
-Both scripts read `data/deidentified/` and write to `analysis_plots/` by default,
-and can be run from any directory. Statistical test results (log-rank tests etc.)
-are printed to the terminal. The figures used in the paper are copied to `figs/`
-for comparison.
+The script rewrites `figs/` and `stats/`, and reruns produce identical files.
+`git status` therefore shows no changes after a successful reproduction.
+`--data-dir`, `--figs-dir` and `--stats-dir` change the input and output folders.
 
-## Data and de-identification
+## Where each result comes from
 
-The raw data is not included because it contains personal data: Prolific IDs
-(in the Firestore records and the survey), and IP addresses and approximate
-location in the Qualtrics export. `scripts/03_deidentify.py` produces the
-released data from it:
+All outputs are written by `scripts/04_analysis.py`. Groups appear as "Solo" and
+"Human+AI" in the figures. The data and CSVs use the internal ids `control` (Solo)
+and `standard_ai` (Human+AI). Tasks are labelled T1-T4 (`level_001`-`level_004` in
+the data).
 
-- Keeps only the 12 analysed participants: those with a Prolific ID and a matched
-  exit survey. Test and abandoned sessions are dropped.
-- Assigns new participant IDs `P01`-`P12` in order of each participant's first
-  recorded event, replacing the app's participant ID everywhere (record and
-  every event).
-- Removes the Firebase user ID, Prolific ID and Qualtrics response IDs, as well
-  as the survey response dates. Survey duration, progress and completion are kept.
-- The IP address, location, name and email columns of the survey are never copied
-  out of the raw CSV (`02_combine_datasets.py` already leaves them out).
-- Refuses to write output if any removed identifier still appears anywhere in
-  it, and warns about email addresses or Prolific-style IDs in survey answers or
-  chat messages.
+| Paper | Output | Content |
+|-------|--------|---------|
+| Fig. 1 | not included | Screenshot of the pAIrStudio interface |
+| §V-A Demographics | `stats/demographics.csv` | Background answers (number and % of 12), and the programming-experience mean and SD |
+| Fig. 2a | `figs/perf_completion_and_runs_a.*`, `stats/completion_by_task.csv` | Participants in each group who completed each task |
+| Fig. 2b | `figs/perf_completion_and_runs_b.*`, `stats/runs_until_success.csv` | Each participant's runs until success, averaged over the tasks they completed, and the group medians (7.13 Solo vs. 6.25 Human+AI) |
+| Fig. 3 | `figs/perf_level_time_by_participant.*` | Each participant's time to success on each task |
+| §V log-rank tests | `stats/logrank_time_and_runs_by_task.csv` | Log-rank tests of time and of runs until first success on each task (df, χ², p) |
+| §V use of Otto | `stats/ai_chats_by_task.csv` | Human+AI participants who messaged Otto, and messages sent on each task |
+| Table I | `stats/self_efficacy_means.csv` | Mean self-efficacy rating per item and group |
+| §V Mann-Whitney U | `stats/likert_mann_whitney.csv` | Solo vs. Human+AI on each self-efficacy item (U, exact two-sided p) |
+| §V participant quotes | `data/deidentified/exit_survey.csv` | Open-ended answers, by participant ID (P01-P12) |
 
-Event times (`localTime`, ISO 8601 UTC) are kept because the timing analyses
-need them. Free-text survey answers and chat messages with the AI partner were
-reviewed and contain no identifying information.
+### Definitions
 
-### Data format
+- **Task completion.** A task counts as completed when the box was delivered to the
+  conveyor (`level_complete` event with `success: true`). Participants who ran out of
+  session time on a task, or never reached it, did not complete it.
+- **Time to success.** Wall-clock minutes from the first event on a task until its
+  successful completion, or until the session time limit for participants who timed
+  out.
+- **Runs until success.** The number of code runs (`run_simulation` events) on a
+  task.
+- **Survival analysis.** Time and runs until first success are compared with a
+  log-rank test (scikit-survival `compare_survival`). Participants stopped by the
+  session time limit are right-censored, and participants who never reached a task
+  are left out of that task.
+- **Mann-Whitney U.** The p-values are exact. U is recomputed for every split of
+  the 12 pooled ratings into groups of 5 and 7, using midranks for ties.
+- **Messages to Otto.** Counted from `chat_message` events with role `user`.
+
+## Data
+
+### Format
 
 Each `data/deidentified/P##.json` holds one participant:
 
-- `participantId`, `experimentalGroup` (`control` or `standard_ai`) and
-  `lastUpdated`
-- `chatConversations` (AI group only): chat history with the AI partner, per level
-- `__subcollections__.events`: the event log, keyed by event ID. Each event has
-  an `eventType` (e.g. `run_simulation`, `level_complete`, `time_limit_reached`,
+- `participantId`, `experimentalGroup` (`control` or `standard_ai`) and `lastUpdated`
+- `chatConversations` (Human+AI only): chat history with Otto, per task
+- `__subcollections__.events`: the event log, keyed by event ID. Each event has an
+  `eventType` (e.g. `run_simulation`, `level_complete`, `time_limit_reached`,
   `collision`, `chat_message`), `levelId` (`tutorial_*`, `level_001`-`level_004`),
-  `isExperiment`, `localTime`, and type-specific fields such as `codeSnapshot`
-  (the Blockly program run) and `runNumber`
-- `exitSurvey.answers`: survey answers keyed by Qualtrics column name; see
-  `_survey_question_key.json` for the question text. `exitSurvey.meta` holds the
-  response duration, progress and completion flag
+  `isExperiment`, `localTime` (ISO 8601, UTC), and type-specific fields such as
+  `codeSnapshot` (the Blockly program that was run) and `runNumber`
+- `exitSurvey.answers`: survey answers keyed by Qualtrics column name (question
+  text in `_survey_question_key.json`). `exitSurvey.meta` holds the response
+  duration, progress and completion flag
 
-## Full pipeline (requires raw data access)
+`exit_survey.csv` holds the same survey answers as a flat table, one row per
+participant. A blank cell means the question was not answered or not shown; for
+example, the questions about Otto were shown only to the Human+AI group.
 
-These steps rebuild `data/deidentified/` from the source systems and are listed
-for transparency. They need the Firebase service account key and the Qualtrics
-export, which are not shared.
+### De-identification
+
+The raw data is not shared because it contains personal data: Prolific IDs (in the
+platform records and the survey), and IP addresses and approximate location in the
+Qualtrics export. `scripts/03_deidentify.py` produced the released data:
+
+- Keeps only the 12 analysed participants, those with a matched exit survey. Test
+  and abandoned sessions are dropped.
+- Assigns new IDs `P01`-`P12` in order of each participant's first recorded event.
+- Removes the Firebase user ID, Prolific ID, Qualtrics response IDs and survey
+  response dates. The survey's IP address, location, name and email columns are
+  never copied from the raw export.
+- Refuses to write output if a removed identifier still appears anywhere in it.
+
+Event times are kept because the timing analyses need them. Free-text survey answers
+and chat messages with Otto were reviewed and contain no identifying information.
+
+### Data collection pipeline (requires raw data access)
+
+The steps below rebuilt `data/deidentified/` from the source systems. They are
+listed for transparency, because they need the Firebase service account key and the
+Qualtrics export, neither of which is shared.
 
 ```
 python scripts/01_download_firestore.py --key path/to/serviceAccountKey.json   # -> data/raw/firestore_export/
 #   place the Qualtrics CSV export at data/raw/exit_survey.csv
-python scripts/02_combine_datasets.py                                          # -> data/combined/
-python scripts/03_deidentify.py                                                # -> data/deidentified/
+python scripts/02_combine_datasets.py   # Firestore records + exit survey, matched by Prolific ID -> data/combined/
+python scripts/03_deidentify.py         # -> data/deidentified/
 ```
 
 `data/raw/` and `data/combined/` contain identifiers and are gitignored.
-
-### 01: Downloading Firestore
-
-Downloads every root collection and every nested subcollection, recursively.
-The service account key comes from Firebase Console -> Project Settings ->
-Service Accounts -> "Generate new private key" (never commit it; it grants full
-admin access to the database). Optional flags: `--out`, `--collections`,
-`--combined-only`, `--no-per-doc-files`.
-
-Output in `data/raw/firestore_export/`:
-- `<collection>.json`: one file per root collection
-- `<collection>/<doc_id>.json`: one file per document, including its
-  subcollections nested under a `__subcollections__` key (e.g. each
-  participant's `events`)
-- `_combined_export.json`: every root collection in one file
-
-Firestore-specific types are converted to JSON-safe representations:
-timestamps -> ISO 8601 strings; GeoPoints, document references and bytes ->
-`{"__type__": ...}` objects.
-
-### 02: Combining with the exit survey
-
-Merges each participant's Firestore record with their exit survey response,
-matched by Prolific ID (the participant's `prolificId` field vs. the survey's
-ID-confirmation column). Optional flags: `--participants-dir`, `--survey-csv`,
-`--out`.
-
-Output in `data/combined/`: one `<doc_id>.json` per participant (Firestore data
-plus an `exitSurvey` block, or `null` if no response matched),
-`_combined_dataset.json` and `_survey_question_key.json`. If a Prolific ID has
-several submissions, the most recently recorded one is kept and the others are
-listed under `exitSurvey.duplicateResponseIds`.
-
-## Generating comparison plots
-
-`scripts/04_generate_plots.py` reads `data/deidentified/` and produces PNG plots comparing
-experimental groups (`control` vs `standard_ai`) on both task performance and
-survey responses:
-
-```
-python scripts/04_generate_plots.py --combined-dir data/deidentified --out analysis_plots
-```
-
-Performance plots (built from each participant's `events` subcollection,
-`level_001`-`level_004`, i.e. `isExperiment: true`):
-- `perf_success_rate_by_level.png` — completion success rate per level
-- `perf_completion_by_level.png` / `.eps` — compound figure (one panel per group) of 100% stacked bars: per level, participants who completed it vs. did not (timed out or never reached it), with counts in each segment. The EPS is vector, for LaTeX/Overleaf
-- `perf_time_spent_by_level.png` / `.eps` — compound figure (the four levels side by side, sized for one IEEE column) of wall-clock time to complete each level across all restarts; completed levels only, with per-level n under each box. The EPS is vector, for LaTeX/Overleaf
-- `perf_attempts_until_success_by_level.png` / `.eps` — same layout as the time-per-level figure, for code runs until success on each level; completed levels only, with per-level n under each box
-- `perf_time_and_attempts_by_level.png` / `.eps` — compact single-column version of the two figures above: time (top row) and runs (bottom row) until success, Levels 1–4 as columns, headers and legend drawn once, n given in the caption
-- `perf_time_to_success_km_by_level.png` / `.eps` — censoring-aware time to success: Kaplan-Meier share of each group that has succeeded on each level by each minute (2×2, own time axis per level); participants stopped by the session limit are censored (+). Log-rank tests for time and runs per level are printed
-- `perf_runs_until_success_by_level.png` / `.eps` — runs until success per level (1×4 with task headers) for participants who completed the level, plus + for the runs made by participants who timed out (a lower bound)
-- `perf_successful_participants_by_task.png` / `.eps` — percentage of each group who completed each level (percent because the groups differ in size; participant counts are written on the bars), in the same per-level panel layout as the time/runs figures (task headers, L1–L4 titles, shared y-scale). Completers are in the group color and everyone else in gray, so each bar is 100% of the group
-- `perf_completion_and_runs_a.*` and `_b.*` (PNG + EPS) — compact single-column compound figure, as two panels for LaTeX subcaptions: (a) the completion-by-level figure narrowed to fit beside (b) each participant's runs until success averaged over the levels they completed (participants who completed no level are left out). Same height, plot areas aligned; include both at natural size (no `width=`)
-- `perf_movement_blocks_by_dimension.png` / `.eps` — horizontal box plots of the movement blocks (move forward, turns) in each successful program, per task dimension and group; whiskers span min to max, a diamond marks the mean. Debugging/Editing counts include the provided starter code
-- `perf_success_rate_by_condition.png` / `.eps` — success rate (% of the group) on each task, one panel per condition
-- `perf_attempts_by_level.png` — number of simulation runs (code executions) per level
-- `perf_collisions_by_level.png` — collisions per level
-- `perf_completion_rate_per_participant.png` — overall fraction of levels completed, per participant
-- `perf_avg_runs_per_level_by_group.png` / `.eps` — box plot of each participant's average code runs (run_simulation events) per experimental level they reached (tutorial excluded), by group; sized for one IEEE column. Also written as `perf_avg_runs_per_level_by_group_half.*` (narrow, 2.05 in wide) for two panels side by side in one column
-
-Tables:
-- `table_completion_time_by_level.tex` / `.csv` — average completion time per level and group (completers only), sized to fit one IEEE conference column. The .tex is a booktabs table (needs `booktabs` and `makecell`); the CSV includes the n behind each cell
-- `table_self_efficacy_means.tex` / `.csv` and `table_self_efficacy_medians.tex` / `.csv` — mean and median rating of each self-efficacy Likert item per group, sized to fit one IEEE conference column (needs `booktabs` and `makecell`)
-- `table_demographics.tex` / `.csv` — participant background across all participants: number and percentage giving each answer (education, programming experience, block-based coding use, prior robot programming, LLM use), sized to fit one IEEE conference column (needs `booktabs`)
-
-Survey plots (built from `exitSurvey.answers`):
-- `survey_self_efficacy_likert.png` / `.eps` — 100% stacked bars of the four self-efficacy Likert items by group, with response counts; sized for one IEEE column. (Programming experience is printed as a median/range summary instead of plotted.)
-- `survey_ai_partner_ratings.png` — communication/dependency/trust ratings (AI-assisted group only)
-- `survey_difficulty_ranking.png` / `.eps` — compact 100% stacked horizontal bars, one per group: share who ranked authoring vs. debugging/editing as the hardest (rank 1), with counts in the segments; sized for one IEEE column
-- `survey_background_breakdown.png` — education, block-code familiarity, robotics/AI experience by group
-
-Most performance and survey plots are box plots (median, IQR, whiskers; outliers
-hidden); the success-rate plot is a bar of the fraction of participants who
-completed each level.
-
-Figures and tables show the groups as "Solo" (internal id `control`) and "Human+AI" (internal id `standard_ai`) (set in `GROUP_DISPLAY_NAMES` in `scripts/04_generate_plots.py` and `scripts/05_survival_analysis.py`); data files and CSVs keep the internal id.
-
-Only participants with a matched exit survey are included (the survey is
-matched by Prolific ID). Sessions without one (tests/abandoned runs) are already
-dropped from `data/deidentified/`; when run on `data/combined/` they are excluded
-and listed when the script runs.
-
-## Survival analysis
-
-`scripts/05_survival_analysis.py` uses scikit-survival to run a Kaplan-Meier analysis of
-total session time until participants moved on to the exit survey, stratified by
-group, and a log-rank test comparing the groups:
-
-```
-python scripts/05_survival_analysis.py --combined-dir data/deidentified --out analysis_plots
-```
-
-Each participant's time runs from their first event (the start of the tutorial)
-to their final experimental `level_complete` or `time_limit_reached` event — the
-same span the 70-minute session limit applies to, so timeouts sit at 70 minutes. Everyone is an event at that
-time (whether they finished every level or hit the time limit, that is when they
-moved on), so nothing is censored. Uses the same participant filter as
-`scripts/04_generate_plots.py`.
-
-- `perf_survival_time_to_completion.png` — Kaplan-Meier curves with 95% CIs and the log-rank result (open circles = timed out)
-- `perf_survival_time_to_completion.csv` — per-participant time and event status
-- `completion_time_by_participant.png` / `.eps` — one bar per participant, total session time in ascending order, colored by group; a black dot marks participants who did not complete all levels. Also written as `completion_time_by_participant_half.*` (narrow, 2.05 in wide) for two panels side by side in one column
-- `perf_session_time_and_attempts_a.*` and `_b.*` (PNG + EPS) — compact single-column compound figure, as two panels for LaTeX subcaptions: (a) session time per participant (as above) with the group legend, and (b) average code runs per level reached by group. Same height, plot areas aligned; include both at natural size (no `width=`) so the text prints at 10 pt
-- `perf_survival_time_to_success_by_level.png` / `.eps` — Kaplan-Meier curves of the share of participants who have not yet succeeded on each level (minutes on the level), by group, one panel per level; participants stopped by the time limit are censored (+). A log-rank test per level is printed
+`firebase-admin` in `requirements.txt` is needed only for step 01.

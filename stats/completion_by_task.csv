@@ -1,0 +1,9 @@
+task,group,n,completed,percent_completed
+T1,control,5,4,80.0
+T1,standard_ai,7,6,85.7143
+T2,control,5,4,80.0
+T2,standard_ai,7,5,71.4286
+T3,control,5,4,80.0
+T3,standard_ai,7,6,85.7143
+T4,control,5,4,80.0
+T4,standard_ai,7,6,85.7143
