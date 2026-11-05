@@ -12,6 +12,8 @@ with the current task, the state of the simulated warehouse and the participant'
 blocks). Participants program a mobile robot in a tile-based warehouse simulation to
 pick up boxes from a pickup zone and drop them onto a conveyor in a drop-off zone.
 The platform is available at <https://riseatlsu.github.io/pAIrStudio/sandbox/>.
+Its full source code (JavaScript, with Phaser.js and Blockly.js) is included as
+`pAIrStudio-main.zip`.
 
 In a between-subjects study, **12 novice programmers** (undergraduate Computer
 Science students) each attended an individual 70-minute lab session. They were
@@ -49,6 +51,7 @@ scripts/
   01_download_firestore.py       data collection pipeline (needs access to the raw data;
   02_combine_datasets.py           listed for transparency, see below)
   03_deidentify.py
+pAIrStudio-main.zip              full source code of the pAIrStudio platform
 requirements.txt
 ```
 
